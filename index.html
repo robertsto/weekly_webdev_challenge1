@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>#challenge1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+    <body>
+    	<div class="container">
+			<header class="brand">
+				<h1>masteralb creative</h1>
+			</header>
+			
+			<!---------  LEFT COLUMN  --------->
+			<section class="left_column">
+				
+				<!--Register Form-->
+				<div class="box">
+					<h2>Register Form</h2>
+					<div>
+						<div class="form_box">
+							<form action="#" class="register_form">
+							
+								<div class="input_item">
+									<label for="username" class="visually-hidden">Username</label>
+									<input id="username" type="text" placeholder="Username" required>
+								</div>
+								
+								<div class="input_item">
+									<label for="password" class="visually-hidden">Password</label>
+									<input id="password" type="password" placeholder="Password" required>
+								</div>
+								
+								<div class="input_item">
+									<label for="password" class="visually-hidden">Confirm Password</label>
+									<input type="password" placeholder="Confirm Password" required>
+								</div>
+								
+								<div class="input_item">
+									<label for="email" class="visually-hidden">Email</label>
+									<input id="email" type="email" placeholder="Email" required>
+								</div>	
+															
+								<div class="input_item">
+									<label for="location" class="visually-hidden">Your Location</label>
+									<select id="location" required>
+										<option value="Location 1">Your Location</option>
+										<option value="Location 1">Location 1</option>
+										<option value="Location 2">Location 2</option>
+										<option value="Location 3">Location 3</option>
+										<option value="Location 4">Location 4</option>
+										<option value="Location 5">Location 5</option>
+									</select>
+								</div>
+								
+								<div class="checkbox_conteiner">
+									<label  class="checkbox_item" for="accept">
+										<input id="accept" type="checkbox" required>I have read and accept the terms of use.
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								
+								<div class="button_container">
+									<button class="btn btn_large btn_green" type="submit">Sign up</button>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<!--Send Email-->
+				<div class="box">
+					<h2>Send Email</h2>
+					<div>
+						<div class="form_box">
+							<form action="#" class="send_email">
+							
+								<div class="input_item">
+									<label for="username" class="visually-hidden" >Your Name</label>
+									<input id="username" type="text" placeholder="Your Name" required>
+								</div>
+								
+								<div class="input_item">
+									<label for="email" class="visually-hidden">Your Email</label>
+									<input id="email" type="email" placeholder="Your Email" required>
+								</div>
+								
+								<div class="textarea_item">
+									<label for="message" class="visually-hidden">Confirm Password</label>
+									<textarea id="message" placeholder="Type your message..." required></textarea>
+								</div>
+								
+								<div class="checkbox_conteiner">
+									<label  class="checkbox_item" for="send">
+										<input id="send" type="checkbox" required>Send a copy to my Email
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								
+								<div class="button_container">
+									<button class="btn btn_large btn_green" type="submit">Send Email</button>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>			
+			
+			
+			<!---------  RIGHT COLUMN  --------->
+			<section class="right_column">
+				
+				<!--Sign In Form-->
+				<div class="box">
+					<h2>Sign In Form</h2>
+					<div>
+						<div class="form_box">
+							<form action="#" class="sign_in">
+							
+								<div class="input_item">
+									<label for="username" class="visually-hidden">Username</label>
+									<input id="username" type="text" placeholder="Username" required>
+								</div>
+								
+								<div class="input_item">
+									<label for="password" class="visually-hidden">Password</label>
+									<input id="password" type="password" placeholder="Password" required>
+								</div>				
+								
+								<div class="button_container">
+									<div class="checkbox_conteiner">
+										<label  class="checkbox_item" for="remember">
+											<input id="remember" type="checkbox" required>Remember me
+											<span class="checkmark"></span>
+										</label>
+									</div>
+										<button class="btn btn_large btn_green" type="submit">Sign in</button>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<!--Recover Form-->
+				<div class="box">
+					<h2>Recover Form</h2>
+					<div>
+						<div class="form_box">
+							<form action="#" class="recover_form">
+								<div class="input_item">
+									<label for="email" class="visually-hidden">Enter your Email</label>
+									<input id="email" type="email" placeholder="Enter your Email" required>
+								</div>
+								
+								<div class="input_item">
+									<label for="phone" class="visually-hidden">Enter your Phone number</label>
+									<input id="phone" type="tel" placeholder="Enter your Phone number" required>
+								</div>				
+								
+								<div class="button_group">
+									<button class="btn btn_small btn_green" type="submit">Send</button>
+									<button disabled="true" class="btn btn_small">Done</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<!--Subscribe Form-->
+				<div class="box">
+					<h2>Subscribe Form</h2>
+					<div>
+						<div class="form_box">
+							<form action="#" class="subscribe_form">
+								<div class="input_item">
+									<label for="email" class="visually-hidden">Enter your Email</label>
+									<input id="email" type="email" placeholder="Enter your Email" required>
+								</div>			
+								
+								<div class="button_group">
+									<button class="btn btn_small btn_green" type="submit">Subscribe</button>
+									<button class="btn btn_small btn_red" type="reset">No, Thanks</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+				
+				<!--footer-brand-->
+				<footer class="brand_footer">
+					<a href="#">www.masteralb.com</a>
+				</footer>
+			</section>
+		</div>
+	</body>
+</html>

@@ -209,7 +209,7 @@ button:disabled {
 	background-color: #e0e0e0;
 }
 
-.input_item input, .input_item select, .textarea_item textarea {
+.input_item input, .input_item select, .textarea_item textarea{
 	flex: 1;
 	min-width: 10%;
 	height: 44px;
@@ -222,10 +222,6 @@ button:disabled {
 	box-shadow: 0 1px 1px #FFF;
 }
 
-.input_item select {
-	padding: 8px 5px 10px 85px;
-}
-
 input:hover, input:active, input:focus, select:hover, select:active, select:focus, textarea:hover, textarea:active, textarea:focus {
 	outline: none;
 	border: solid 1px #9bd435;
@@ -234,6 +230,21 @@ input:hover, input:active, input:focus, select:hover, select:active, select:focu
 input:active, input:focus, select:active, select:focus, textarea:active, textarea:focus {
 	box-shadow: 0 0 2px #9bd435;
 }
+
+
+/* select */
+
+.input_item select, .input_item select option {
+	padding: 8px 5px 10px 85px;
+}
+
+.input_item select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../images/arrow_select.svg) 96% 50% no-repeat;
+}
+
 
 
 /* input icons */
@@ -271,7 +282,7 @@ input:active, input:focus, select:active, select:focus, textarea:active, textare
 	background: url(../images/icon_input_set.svg) 20px -63px no-repeat, linear-gradient(#F8F8F8, #EFEFEF);
 }
 
-.send_email .input_item:nth-child(3){
+.send_email .textarea_item{
 	background: linear-gradient(#F8F8F8, #EFEFEF);
 }
 
